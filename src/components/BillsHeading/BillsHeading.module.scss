@@ -1,0 +1,27 @@
+.addEmail {
+  display: flex;
+  margin-bottom: 18px;
+
+  .addEmailIcon {
+    display: flex;
+    margin-right: 8px;
+  }
+
+  .addEmailHeading {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+
+  .chevronIcon {
+    rotate: -90deg;
+    transform-origin: center 10px;
+  }
+}

@@ -1,0 +1,57 @@
+.actionBlock {
+  display: flex;
+  width: 200px;
+  max-width: 200px;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+
+  .iconBlock {
+    width: 18px;
+    display: flex;
+
+    &.reverseIcon {
+      transform: rotate(180deg);
+    }
+  }
+
+  &:hover {
+    background-color: #f2f2f2;
+  }
+
+  &.active {
+    background: #f2f2f2;
+    border-radius: 4px 4px 0px 0px;
+  }
+
+  span {
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #222222;
+  }
+}
+
+.accordionClick {
+  cursor: pointer;
+}
+
+.modalPopover {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #222222;
+  cursor: pointer;
+
+  .explanation {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #222222;
+  }
+}

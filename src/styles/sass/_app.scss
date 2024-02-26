@@ -1,0 +1,27 @@
+#__next {
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  opacity: 0;
+}
+*:hover ::-webkit-scrollbar {
+  opacity: 1;
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+  border-radius: 20px;
+  opacity: 0;
+}
+::-webkit-scrollbar-thumb {
+  background-color: $scroll-color;
+  border-radius: 20px;
+}
+
+.MuiPickersPopper-root button.Mui-selected {
+  background-color: $accent-color !important;
+}

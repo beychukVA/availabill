@@ -1,0 +1,20 @@
+@import "../../styles/sass/utils/variables";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.35;
+  color: $primary-text-color;
+  transition: $transition;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}

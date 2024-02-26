@@ -1,0 +1,33 @@
+@import "../../../../styles/sass/utils/variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.35;
+  color: $secondary-text-color;
+  margin-top: 24px;
+}
+
+.captcha {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: $secondary-text-color;
+  text-align: left;
+  margin-top: 32px;
+
+  @media (min-width: $tablet) {
+    margin-top: 15px;
+    max-width: 343px;
+  }
+}

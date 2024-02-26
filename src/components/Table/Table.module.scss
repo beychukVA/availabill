@@ -1,0 +1,307 @@
+@import "../../styles/sass/utils/variables";
+
+.container {
+  container-type: inline-size;
+
+  .table {
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.05));
+    border-collapse: collapse;
+    width: 100%;
+    border: $table-border;
+    border-radius: 4px;
+    background: $white-text-color;
+
+    .innerTable {
+      border-collapse: collapse;
+      width: 100%;
+      background: $white-text-color;
+
+      td {
+        vertical-align: top;
+      }
+    }
+
+    .thead {
+      background: $dropdown-item-hover-color;
+
+      .th {
+        text-align: left;
+        padding: 12px;
+        color: $primary-text-color;
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+
+    .tbody {
+      .tr {
+        &:nth-child(even) {
+          td {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+          }
+        }
+
+        .td {
+          padding: 12px;
+          line-height: 22px;
+
+          .imageBlock {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .invisible {
+    opacity: 0;
+    height: 0;
+    width: 0;
+    pointer-events: none;
+  }
+
+  .closeBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s ease-in-out;
+  }
+
+  .actionBlock {
+    height: 18px;
+    display: flex;
+    align-items: center;
+  }
+
+  .innerActions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.5;
+    }
+
+    &.disabled {
+      display: none;
+    }
+
+    span.normal {
+      white-space: nowrap;
+
+      @media (min-width: $desktop) {
+        white-space: normal;
+      }
+    }
+
+    span {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      cursor: pointer;
+      white-space: nowrap;
+      max-width: 172px;
+
+      &:hover {
+        opacity: 0.7;
+      }
+
+      /* Gray text */
+      color: #848484;
+    }
+  }
+
+  .inlineTextBlock {
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+    margin-bottom: 16px;
+  }
+
+  .wordBreak {
+    word-break: break-word;
+  }
+
+  .smallInnerTable {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.5fr;
+    gap: 5px;
+
+    .lastRow {
+      td {
+        padding-top: 20px;
+      }
+    }
+
+    td.innerTd {
+      border-bottom: none !important;
+    }
+  }
+
+  h5 {
+    font-size: 12px;
+    color: #848484;
+  }
+
+  .textBlock {
+    margin-bottom: 16px;
+
+    h5 {
+      line-height: 16px;
+      margin-bottom: 10px;
+    }
+
+    span {
+      font-size: 16px;
+      line-height: 22px;
+      color: #222222;
+    }
+  }
+
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+
+    &:hover {
+      opacity: 0.3;
+    }
+  }
+
+  .right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    a {
+      transition: 0.1s ease-in-out;
+
+      &:hover {
+        opacity: 0.3;
+      }
+    }
+  }
+
+  .dotWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    @media (min-width: $desktop) {
+      justify-content: center;
+    }
+  }
+
+  .dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: $primary-text-color;
+    margin: 0 1px;
+  }
+
+  .offenBlock {
+    background: $light-gray;
+    border-radius: 17px;
+    padding: 6px 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $secondary-text-color;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: lowercase;
+    gap: 5px;
+  }
+
+  .mobileHeader {
+    display: none;
+  }
+
+  .overflowEllipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .gesamtBlock {
+    margin-top: 20px;
+    grid-template-columns: 1.2fr 0.5fr;
+    display: grid;
+  }
+
+  .table {
+    table-layout: fixed;
+
+    @container (max-width: 900px) {
+      display: block;
+      padding: 12px;
+
+      .loadingTd {
+        display: block;
+        width: 100%;
+      }
+
+      .spinnerTd,
+      .smallTableTd {
+        display: block;
+        border: none;
+      }
+
+      .innerTable {
+        .td {
+          border: none !important;
+        }
+      }
+
+      .thead,
+      .tbody,
+      .th,
+      .td,
+      .tr,
+      .mobileHeader {
+        display: block;
+      }
+
+      .tdBlock {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .thead .tr {
+        display: none;
+      }
+
+      .tbody .tr {
+        &:not(:last-child) {
+          border-bottom: 5px solid $primary-background-color;
+        }
+
+        td:last-child {
+          border-bottom: none;
+        }
+      }
+
+      .td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+      }
+    }
+  }
+
+  .spinner {
+    position: static;
+    padding: 20px;
+  }
+}

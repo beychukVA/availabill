@@ -1,0 +1,138 @@
+@import "../../styles/sass/utils/variables";
+
+.userMenu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.notification {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  margin-right: 27px;
+}
+
+.notificationCount {
+  position: absolute;
+  top: -3px;
+  left: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: 20px;
+  padding: 0 3px;
+  border-radius: 10px;
+  background-color: $accent-color;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1;
+  color: $white-text-color;
+}
+
+.user {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.username {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.37;
+  color: $primary-text-color;
+  margin-right: 18px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: $transition;
+  transform: rotate(0deg);
+
+  & svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.arrowUp {
+  transform: rotate(180deg);
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 1;
+  width: fit-content;
+  transition: $transition-linear;
+  background: $secondary-background-color;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  padding: 4px;
+  height: fit-content;
+}
+
+.dropdownWrapper {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.showWrapper {
+  display: block;
+}
+
+.dropdownHidden {
+  display: none;
+  height: 0;
+}
+
+.dropdownItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 16px 8px 12px;
+  transition: $transition;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $dropdown-item-hover-color;
+  }
+}
+
+.itemText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.37;
+  color: $primary-text-color;
+}
+
+.itemIcon {
+  width: 18px;
+  height: 18px;
+  margin-left: 10px;
+}

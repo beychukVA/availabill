@@ -1,0 +1,59 @@
+@import "@/styles/sass/utils/variables";
+
+.modalInnerContent {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+
+  h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #222222;
+  }
+
+  p {
+    font-size: 14px;
+    color: #848484;
+  }
+
+  h6 {
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #848484;
+    margin-bottom: 20px;
+  }
+
+  .modalRadio {
+    margin-bottom: 20px;
+
+    label {
+      font-weight: 600;
+      font-size: 12px;
+      color: #848484;
+    }
+  }
+
+  .buttonBlock {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .inputsBlock {
+    .modalForm {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      width: 90%;
+    }
+
+    .innerInputs {
+      display: flex;
+      gap: 20px;
+    }
+  }
+
+  .selectGroup {
+    margin-bottom: 20px;
+  }
+}

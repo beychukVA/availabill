@@ -1,0 +1,53 @@
+@import "../../../styles/sass/utils/variables";
+
+.transactionCard {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  height: 100%;
+
+  .noTransactionText {
+    text-align: center;
+    width: 100%;
+    align-self: center;
+  }
+
+  .info {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: $primary-text-color;
+    white-space: nowrap;
+  }
+
+  .amount {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    text-align: center;
+    color: $primary-text-color;
+    white-space: nowrap;
+  }
+
+  .currency {
+    font-family: "Open Sans";
+    font-size: 14px;
+    margin-right: 5px;
+  }
+
+  .number {
+    font-size: 36px;
+    font-family: "Encode Sans";
+  }
+}
+
+.alignNoData {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

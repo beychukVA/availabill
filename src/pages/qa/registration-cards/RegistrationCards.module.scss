@@ -1,0 +1,103 @@
+@import "../../../styles/sass/utils/variables";
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  margin-top: 54px;
+}
+
+.link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  padding-right: 55px;
+}
+
+.title {
+  position: relative;
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: $primary-text-color;
+  margin-bottom: 79px;
+}
+
+.title::after {
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  content: "";
+  width: 47px;
+  height: 3px;
+  background: $accent-color;
+}
+
+.subTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: $primary-text-color;
+  margin-bottom: 16px;
+}
+
+.content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: $primary-text-color;
+  margin-bottom: 64px;
+}
+
+.content strong {
+  color: $accent-color;
+}
+
+.content h2 {
+  line-height: 30px;
+}
+
+.content ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.content ol {
+  margin-left: 20px;
+}
+
+.highlight {
+  color: $accent-color;
+}
+
+.rightContainer {
+  display: none;
+
+  @media (min-width: $desktop) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.contentImg {
+  width: 584px;
+  height: 496px;
+}

@@ -1,0 +1,1232 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2023-02-28 18:27+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: fr\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/components/CardSection/CardUserInfo/CardUserInfo.tsx:24
+msgid "+ EMAIL-ADRESSE HINZÜFUGEN"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:271
+msgid "+ Neue E-Mail hinzufügen"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:282
+msgid "+ Neue mobilnummer hinzufügen"
+msgstr ""
+
+#: src/pages/profile/index.tsx:40
+msgid "2-stufige Authentifizierung"
+msgstr ""
+
+#: src/components/OnboardingFooter/OnboardingFooter.tsx:24
+msgid "AGB"
+msgstr ""
+
+#: src/pages/bills/index.tsx:387
+msgid "APPLY"
+msgstr ""
+
+#: src/components/UserMenu/UserMenu.tsx:35
+msgid "Abmelden"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:146
+#: src/components/OnboardingSteps/Login/Modal/ObjectToInvoiceModal/ObjectToInvoiceModal.tsx:134
+#: src/components/Settings/ContactInformation/Modal/EditNameModal/EditNameModal.tsx:210
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:184
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:149
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:183
+msgid "Abrechen"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:226
+msgid "Abschliessen"
+msgstr ""
+
+#: src/components/Table/Table.tsx:145
+#~ msgid "Actions"
+#~ msgstr ""
+
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:348
+msgid "Adresse"
+msgstr ""
+
+#: src/components/Pagination/Pagination.tsx:34
+msgid "Alle anzeigen"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:254
+msgid "Als Primäre E-Mail festlegen"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailLoginModal/PrimaryEmailLoginModal.tsx:104
+msgid "Als primäre E-Mail festlegen"
+msgstr ""
+
+#: src/components/Settings/Password/Password.tsx:151
+msgid "Altes Passwort"
+msgstr ""
+
+#: src/layouts/MainLayout/MainLayout.tsx:24
+#: src/layouts/MainLayout/MainLayout.tsx:25
+msgid "Armaturenbrett"
+msgstr ""
+
+#: src/components/CardSection/PaymentProgress/PaymentProgress.tsx:39
+msgid "Ausgaben CHF"
+msgstr ""
+
+#: src/pages/bills/index.tsx:306
+msgid "Auswahl herunterladen"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailStep.tsx:98
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailStep.tsx:98
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailLoginModal/PrimaryEmailLoginModal.tsx:85
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailLoginModal/PrimaryEmailLoginModal.tsx:85
+msgid "Autorisierungsfehler! Login oder Passwort falsch."
+msgstr ""
+
+#: src/components/CardSection/CardsAndBills/CardsAndBills.tsx:13
+msgid "Bald verfügbar"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:335
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:380
+msgid "Bearbeiten"
+msgstr ""
+
+#: src/pages/profile/index.tsx:44
+msgid "Benachrichtigungen"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:322
+msgid "Bestätigen"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:152
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:117
+msgid "Bestätigen Sie Ihre E-Mail"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:162
+msgid "Bestätigen Sie Ihre E-Mail."
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailStep.tsx:187
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailStep.tsx:124
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:151
+msgid "Bestätigen und weiter"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Modal/ResendEmailCodeModal/ResendEmailCodeModal.tsx:13
+#: src/components/OnboardingSteps/Registration/Modal/ResendMobileCodeModal/ResendMobileCodeModal.tsx:13
+msgid "Bestätigungscode"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:119
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:161
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:182
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:171
+msgid "Bestätigungscode eingeben"
+msgstr ""
+
+#: src/components/CardSection/CardBillInfo/CardBillInfo.tsx:37
+msgid "Betrag"
+msgstr ""
+
+#: src/components/CardSection/PaymentCard/PaymentCard.tsx:30
+msgid "Betrage"
+msgstr ""
+
+#: src/pages/bills/index.tsx:9
+#~ msgid "Bills Page"
+#~ msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/EditNameModal/EditNameModal.tsx:156
+msgid "Bitte beachten Sie, dass aus Sicherheitsgründen eine Namensänderung für Karten und Konten separat unter Karten & Konten durchgeführt werden müssen."
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:154
+msgid "Bitte geben Sie den Code ein, den wir Ihnen an Ihre Mobilnummer gesendet haben."
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:155
+msgid "Bitte geben Sie den Code ein, den wir Ihnen {0} gesendet haben."
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:120
+msgid "Bitte geben Sie den Code ein, den wir Ihnen {primaryEmail} gesendet haben."
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ObjectToInvoiceModal/ObjectToInvoiceModal.tsx:26
+msgid "Bitte geben Sie eine gültige Telefonnummer ein"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:21
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:24
+#: src/components/Settings/ContactInformation/Modal/EditNameModal/EditNameModal.tsx:19
+#: src/components/Settings/ContactInformation/Modal/EditNameModal/EditNameModal.tsx:22
+msgid "Bitte geben Sie mindestens ein Zeichen ein (1)"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Modal/ResendEmailCodeModal/ResendEmailCodeModal.tsx:17
+msgid "Bitte überprüfen Sie Ihre E-Mail-Adresse."
+msgstr ""
+
+#: src/components/Footer/Footer.tsx:33
+msgid "Brauchen Sie Hilfe?"
+msgstr ""
+
+#: src/pages/bills/index.tsx:377
+msgid "CANCEL"
+msgstr ""
+
+#: src/pages/bills/index.tsx:287
+msgid "CLEAR FILTER"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:162
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:127
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:161
+msgid "Code eingeben"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:173
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:138
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:172
+msgid "Code erneut senden"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:173
+msgid "Code erneut versenden"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:194
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:184
+msgid "Code erneut zusenden."
+msgstr ""
+
+#: src/components/OnboardingFooter/OnboardingFooter.tsx:29
+msgid "Copyright © 2022 Verfügbarkeitsabrechnung. Alle Rechte vorbehalten."
+msgstr ""
+
+#: src/components/LanguageSwitcher/LanguageSwitcher.tsx:10
+msgid "DE"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:24
+msgid "Das Passwort muss mindestens ein Sonderzeichen und einen Großbuchstaben enthalten"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:86
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:86
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:82
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:82
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:115
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:115
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:107
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:107
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:123
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:123
+#: src/components/Settings/ContactInformation/Modal/EditNameModal/EditNameModal.tsx:125
+#: src/components/Settings/ContactInformation/Modal/EditNameModal/EditNameModal.tsx:125
+msgid "Daten konnten nicht gesendet werden. versuchen Sie es nochmal"
+msgstr ""
+
+#: src/components/Footer/Footer.tsx:12
+#: src/components/OnboardingFooter/OnboardingFooter.tsx:26
+msgid "Datenschutz"
+msgstr ""
+
+#: src/components/Footer/Footer.tsx:12
+#~ msgid "Datenschutz Impressum"
+#~ msgstr ""
+
+#: src/components/Table/Table.tsx:29
+#: src/components/Table/Table.tsx:79
+#~ msgid "Datum"
+#~ msgstr ""
+
+#: src/components/Sidebar/Sidebar.tsx:10
+msgid "Dein availabill"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordEmailModal/ForgotPasswordEmailModal.tsx:70
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordEmailModal/ForgotPasswordEmailModal.tsx:70
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:141
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:141
+msgid "Der Bestätigungscode konnte nicht gesendet werden. Bitte versuchen Sie es erneut"
+msgstr ""
+
+#: src/components/Settings/Lenguage/Lenguage.tsx:13
+msgid "Deutsch"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:194
+msgid "Die primäre E-Mail wird für das Login (sofern keine bestätigte Mobilnummer angegeben), die Änderung des Passworts und wichtige administrative Kommunikation verwendet."
+msgstr ""
+
+#: src/components/OnboardingMenu/OnboardingMenu.tsx:55
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailStep.tsx:134
+msgid "Diese Seite ist durch reCAPTCHA geschützt. Mit dem Fortfahren bestätigen Sie, dass Sie die Datenschutzerklärung von Google gelesen haben und die Nutzungsbedingungen von Google akzeptieren."
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordEmailModal/ForgotPasswordEmailModal.tsx:107
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailStep.tsx:170
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailStep.tsx:117
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailLoginModal/PrimaryEmailLoginModal.tsx:117
+msgid "E-Mail"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordEmailModal/ForgotPasswordEmailModal.tsx:105
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailStep.tsx:168
+msgid "E-Mail Adresse"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:237
+msgid "E-Mail bearbeiten"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:261
+msgid "E-Mail bestätigen"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailStep.tsx:115
+msgid "E-Mail eingeben"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:244
+msgid "E-Mail entfernen"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordEmailModal/ForgotPasswordEmailModal.tsx:18
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailStep.tsx:19
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailStep.tsx:17
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailLoginModal/PrimaryEmailLoginModal.tsx:12
+msgid "E-Mail ist nicht korrekt"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordCodeModal/ForgotPasswordCodeModal.tsx:28
+msgid "E-Mail-Adresse gesendet. Bitte überprüfen Sie Ihre Post."
+msgstr ""
+
+#: src/components/AddEmail/AddEmail.tsx:21
+msgid "E-Mail-Adressen hinzufügen"
+msgstr ""
+
+#: src/components/LanguageSwitcher/LanguageSwitcher.tsx:14
+msgid "EN"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailStep.tsx:70
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailStep.tsx:70
+msgid "Ein Benutzer existiert bereits mit dieser E-Mail-Adresse!"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordEmailModal/ForgotPasswordEmailModal.tsx:78
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordEmailModal/ForgotPasswordEmailModal.tsx:78
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:94
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:94
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:106
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:106
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:133
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:133
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailStep.tsx:105
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailStep.tsx:105
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:118
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:118
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:149
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:149
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailStep.tsx:78
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailStep.tsx:78
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:105
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:105
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:136
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:136
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:90
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:90
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:123
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:123
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:118
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:118
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:134
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:134
+#: src/components/Settings/ContactInformation/Modal/EditNameModal/EditNameModal.tsx:134
+#: src/components/Settings/ContactInformation/Modal/EditNameModal/EditNameModal.tsx:134
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:104
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:104
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:118
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:104
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:118
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:143
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:143
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailLoginModal/PrimaryEmailLoginModal.tsx:94
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailLoginModal/PrimaryEmailLoginModal.tsx:94
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:83
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:83
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:108
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:108
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:103
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:103
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:117
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:103
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:117
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:142
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:142
+#: src/components/Settings/Password/Password.tsx:135
+#: src/components/Settings/Password/Password.tsx:135
+msgid "Ein Fehler ist aufgetreten"
+msgstr ""
+
+#: src/components/Toasts/ToastError/ToastError.tsx:23
+msgid "Ein Fehler ist aufgetreten!"
+msgstr ""
+
+#: src/components/CardSection/CardBillInfo/CardBillInfo.tsx:31
+msgid "Einkauf vom"
+msgstr ""
+
+#: src/components/UserMenu/UserMenu.tsx:30
+msgid "Einstellungen"
+msgstr ""
+
+#: src/components/Settings/Lenguage/Lenguage.tsx:17
+msgid "Englisch"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:329
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:374
+msgid "Entfernen"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:22
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:16
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:22
+#: src/components/Settings/Password/Password.tsx:19
+#: src/components/Settings/Password/Password.tsx:22
+#: src/components/Settings/Password/Password.tsx:28
+msgid "Erlaubte Mindestanzahl an Zeichen (8)"
+msgstr ""
+
+#: src/components/Settings/Password/Password.tsx:144
+msgid "Erstellen Sie ein neues Passwort"
+msgstr ""
+
+#: src/components/HeaderMenu/HeaderMenu.tsx:13
+msgid "FAQ"
+msgstr ""
+
+#: src/components/LanguageSwitcher/LanguageSwitcher.tsx:18
+msgid "FR"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:99
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:99
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:126
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:126
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:111
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:111
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:98
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:98
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:112
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:112
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:137
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:137
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:77
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:77
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:102
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:102
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:111
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:111
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:136
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:136
+msgid "Falscher Code. Versuchen Sie es erneut"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:26
+msgid "Falsches Datum ausgewählt"
+msgstr ""
+
+#: src/components/Settings/Lenguage/Lenguage.tsx:21
+msgid "Französisch"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:31
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:155
+#: src/components/Settings/ContactInformation/Modal/EditNameModal/EditNameModal.tsx:27
+#: src/pages/profile/index.tsx:64
+msgid "Frau"
+msgstr ""
+
+#: src/components/Table/Table.tsx:50
+#: src/components/Table/Table.tsx:112
+#~ msgid "Fällig am"
+#~ msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordEmailModal/ForgotPasswordEmailModal.tsx:92
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:103
+msgid "Fügen Sie eine E-Mail hinzu"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailLoginModal/PrimaryEmailLoginModal.tsx:107
+msgid "Geben Sie Ihr Login-Passwort ein, um “E-Mail-Adresse” als primäre E-Mail festzulegen."
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordEmailModal/ForgotPasswordEmailModal.tsx:95
+msgid "Geben Sie Ihre E-Mail-Adresse ein und wir senden Ihnen einen Code zum Zurücksetzen des Passworts"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:146
+msgid "Geben Sie Ihren Bestätigungscode ein."
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:151
+msgid "Geben Sie den SMS Code"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ObjectToInvoiceModal/ObjectToInvoiceModal.tsx:111
+msgid "Geben Sie die Telefonnummer an, unter welcher wir Sie erreichen können."
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:196
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:198
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:181
+msgid "Geburtsdatum"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailSuccessModal/PrimaryEmailSuccessModal.tsx:13
+#: src/components/Settings/Password/Modal/ChangePasswordSuccesModal/ChangePasswordSuccesModal.tsx:13
+msgid "Glückwunsch!"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:136
+msgid "Grossbuchstaben und ein Sonderzeichen beinhalten"
+msgstr ""
+
+#: src/components/Greeting/Greeting.tsx:15
+msgid "Guten Tag"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:30
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:155
+#: src/components/Settings/ContactInformation/Modal/EditNameModal/EditNameModal.tsx:26
+#: src/pages/profile/index.tsx:64
+msgid "Herr"
+msgstr ""
+
+#: src/components/Table/Table.tsx:36
+#~ msgid "Händler"
+#~ msgstr ""
+
+#: src/components/LanguageSwitcher/LanguageSwitcher.tsx:22
+msgid "IT"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordEmailModal/ForgotPasswordEmailModal.tsx:119
+msgid "Ich habe den Code bereits"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:159
+msgid "Ich habe keine Mobilnummer"
+msgstr ""
+
+#: src/layouts/OnboardingLayout/OnboardingLayout.tsx:57
+msgid "Ihr digitaler Service rund"
+msgstr ""
+
+#: src/components/CardSection/CardBillInfo/CardBillInfo.tsx:22
+msgid "Ihr letzter Einkauf"
+msgstr ""
+
+#: src/pages/index.tsx:166
+msgid "Ihre Einstellungen"
+msgstr ""
+
+#: src/pages/profile/index.tsx:79
+msgid "Ihre Einstellungen / Ihr Profil"
+msgstr ""
+
+#: src/pages/index.tsx:153
+msgid "Ihre Karten & Konten"
+msgstr ""
+
+#: src/pages/bills/index.tsx:166
+msgid "Ihre Rechnungen"
+msgstr ""
+
+#: src/pages/index.tsx:132
+msgid "Ihre Rechungen"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:171
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:192
+msgid "Ihren Spam-Ordner."
+msgstr ""
+
+#: src/components/Footer/Footer.tsx:15
+#: src/components/OnboardingFooter/OnboardingFooter.tsx:22
+msgid "Impressum"
+msgstr ""
+
+#: src/components/OnboardingMenu/OnboardingMenu.tsx:48
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailStep.tsx:127
+msgid "Indem Sie fortfahren akzeptieren Sie die Allgemeinen Geschäftsbedingungen der availabill und Sie bestätigen, dass Sie die availabill Datenschutzerklärung gelesen haben."
+msgstr ""
+
+#: src/components/Settings/Lenguage/Lenguage.tsx:25
+msgid "Italienisch"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailStep.tsx:158
+msgid "Jetzt REGISTRIEREN"
+msgstr "Adhérer maintenant"
+
+#: src/components/OnboardingMenu/OnboardingMenu.tsx:30
+msgid "Jetzt registrieren"
+msgstr "Adhérer maintenant"
+
+#: src/components/MonthlyStatement/MonthlyStatement.tsx:25
+msgid "Karte hinzufügen"
+msgstr ""
+
+#: src/pages/cards/index.tsx:9
+msgid "Karten & Konen"
+msgstr ""
+
+#: src/components/Sidebar/Sidebar.tsx:12
+msgid "Karten & Konten"
+msgstr ""
+
+#: src/components/CardSection/TransactionCard/TransactionCard.tsx:33
+msgid "Keine"
+msgstr ""
+
+#: src/pages/bills/index.tsx:398
+msgid "Keine Rechnungen vorhanden"
+msgstr ""
+
+#: src/components/CardSection/CardBillInfo/CardBillInfo.tsx:45
+msgid "Keine Transaktionen zum Anzeigen"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:171
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:136
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:170
+msgid "Keinen Code erhalten?"
+msgstr ""
+
+#: src/pages/profile/index.tsx:28
+msgid "Kontaktdaten"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:182
+msgid "Lassen Sie sich den"
+msgstr ""
+
+#: src/components/CardSection/PaymentCard/PaymentCard.tsx:41
+msgid "Letzte Transaktion am"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailStep.tsx:147
+msgid "Loggen Sie sich ein."
+msgstr ""
+
+#: src/components/OnboardingMenu/OnboardingMenu.tsx:44
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailStep.tsx:108
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailLoginModal/PrimaryEmailLoginModal.tsx:115
+msgid "Login"
+msgstr ""
+
+#: src/components/CardSection/CardBillInfo/CardBillInfo.tsx:27
+msgid "Manor logo"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:27
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:23
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:23
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:20
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:15
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:20
+msgid "Maximal zulässige Zeichenanzahl (6)"
+msgstr ""
+
+#: src/components/CardSection/CardUserInfo/CardUserInfo.tsx:16
+msgid "Mit my.availabill verbundene E-Mail-Adressen"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:276
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:294
+msgid "Mobilnummer"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:149
+msgid "Mobilnummer bestätigen"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:134
+msgid "Mobilnummer zu bestätigen."
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:135
+msgid "Muss mind. 8-stellig sein sowie Klein-,"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:184
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:186
+#: src/components/Settings/ContactInformation/Modal/EditNameModal/EditNameModal.tsx:193
+#: src/components/Settings/ContactInformation/Modal/EditNameModal/EditNameModal.tsx:195
+msgid "Nachname"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:166
+msgid "Name"
+msgstr ""
+
+#: src/components/UserMenu/UserMenu.tsx:52
+msgid "Name nicht verfügbar"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/EditNameModal/EditNameModal.tsx:153
+msgid "Name ändern"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:129
+msgid "Neue passwort eingeben"
+msgstr ""
+
+#: src/components/Settings/Password/Password.tsx:161
+msgid "Neues Passwort"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailStep.tsx:197
+msgid "Neues Passwort anfordern"
+msgstr ""
+
+#: src/components/Settings/Password/Password.tsx:172
+msgid "Neues Passwort bestätigen"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailLoginModal/PrimaryEmailLoginModal.tsx:126
+msgid "Passwort"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordCodeModal/ForgotPasswordCodeModal.tsx:23
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryResendCodeModal/PrimaryResendCodeModal.tsx:22
+msgid "Passwort anfordern"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:153
+msgid "Passwort bestätigen"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:85
+#: src/components/Settings/Password/Password.tsx:102
+msgid "Passwort bestätigen stimmt nicht mit Passwort überein"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailStep.tsx:178
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:143
+msgid "Passwort eingeben"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:132
+msgid "Passwort setzen"
+msgstr ""
+
+#: src/components/Settings/Password/Password.tsx:195
+msgid "Passwort speichern"
+msgstr ""
+
+#: src/components/Settings/Password/Password.tsx:182
+msgid "Passwort vergessen? PASSWORT ANFORDERN"
+msgstr ""
+
+#: src/pages/profile/index.tsx:36
+msgid "Passwort ändern"
+msgstr ""
+
+#: src/components/CardSection/PaymentCard/PaymentCard.tsx:20
+msgid "Payment card"
+msgstr ""
+
+#: src/pages/profile/index.tsx:48
+msgid "Portalzugang deaktivieren"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:189
+msgid "Primäre E-Mail-Adresse"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:97
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:97
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:97
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:96
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:96
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:96
+msgid "Primäre E-Mail-Adresse konnte nicht zugewiesen werden"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ExtendPaymentPeriodModal/ExtendPaymentPeriodModal.tsx:97
+msgid "Pro Rechnung kann nur einmal die Zahlungsfrist verlängert werden."
+msgstr ""
+
+#: src/components/Sidebar/Sidebar.tsx:11
+msgid "Rechnungen"
+msgstr ""
+
+#: src/components/Table/Table.tsx:64
+#: src/components/Table/Table.tsx:135
+#~ msgid "Rechnungskopie"
+#~ msgstr ""
+
+#: src/components/Table/Table.tsx:57
+#: src/components/Table/Table.tsx:122
+#~ msgid "Rechnungsstatus"
+#~ msgstr ""
+
+#: src/components/MonthlyStatement/MonthlyStatement.tsx:18
+msgid "Registrieren Sie Ihre MediaMarkt CLUB Shopping Card für my.availabill.ch. Klicken Sie auf"
+msgstr ""
+
+#: src/layouts/OnboardingLayout/OnboardingLayout.tsx:65
+msgid "Registrieren Sie sich, um die volle Übersicht und Kontrolle über Ihre Rechnungen zu erhalten."
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailStep.tsx:102
+msgid "Registrieren Sie sich."
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ObjectToInvoiceModal/ObjectToInvoiceModal.tsx:108
+msgid "Rückruf anfragen"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ExtendPaymentPeriodModal/ExtendPaymentPeriodModal.tsx:77
+#: src/components/OnboardingSteps/Login/Modal/ObjectToInvoiceModal/ObjectToInvoiceModal.tsx:98
+msgid "Schliessen"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:177
+msgid "Senden"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordEmailModal/ForgotPasswordEmailModal.tsx:75
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordEmailModal/ForgotPasswordEmailModal.tsx:75
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:91
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:91
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:103
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:103
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:130
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:130
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailStep.tsx:102
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailStep.tsx:102
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:115
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:115
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:146
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:146
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailStep.tsx:75
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailStep.tsx:75
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:102
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:102
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:133
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:133
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:87
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:87
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:120
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:120
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:113
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:113
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:129
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:129
+#: src/components/Settings/ContactInformation/Modal/EditNameModal/EditNameModal.tsx:130
+#: src/components/Settings/ContactInformation/Modal/EditNameModal/EditNameModal.tsx:130
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:101
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:101
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:115
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:101
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:115
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:140
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:140
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailLoginModal/PrimaryEmailLoginModal.tsx:90
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailLoginModal/PrimaryEmailLoginModal.tsx:90
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:80
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:80
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:105
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:105
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:100
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:100
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:114
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:100
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:114
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:139
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:139
+#: src/components/Settings/Password/Password.tsx:132
+#: src/components/Settings/Password/Password.tsx:132
+msgid "Serverfehler"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailStep.tsx:190
+msgid "Sie haben Ihr Passwort vergessen?"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailStep.tsx:105
+msgid "Sie haben bereits einen Zugang zu my.availabill.ch?"
+msgstr ""
+
+#: src/components/Settings/Password/Password.tsx:128
+#: src/components/Settings/Password/Password.tsx:128
+msgid "Sie haben das falsche alte Passwort eingegeben"
+msgstr ""
+
+#: src/components/OnboardingFooter/OnboardingFooter.tsx:13
+msgid "Sie haben eine Frage?"
+msgstr ""
+
+#: src/components/Settings/Password/Modal/ChangePasswordSuccesModal/ChangePasswordSuccesModal.tsx:16
+msgid "Sie haben erfolgreich ein neues Passwort festgelegt"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:148
+msgid "Sie haben es fast geschafft."
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:170
+msgid "Sie haben keine E-Mail bekommen? Bitte prüfen Sie"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:191
+msgid "Sie haben keine E-Mail erhalten? Bitte prüfen Sie"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:180
+msgid "Sie haben keine SMS bekommen?"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailStep.tsx:151
+msgid "Sie haben noch keinen Zugang zu my.availabill.ch?"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ExtendPaymentPeriodModal/ExtendPaymentPeriodModal.tsx:90
+msgid "Sie können 3 mal pro Jahr Ihre Zahlungsfrist bei \"Händler\" um 15 Tage kostenfrei verlängern. Sie haben bisher \"1/3\" die Zahlungsfrist verlängert."
+msgstr ""
+
+#: src/components/AddEmail/AddEmail.tsx:12
+msgid "Sie können nicht alle Rechnungen finden?"
+msgstr ""
+
+#: src/components/MonthlyStatement/MonthlyStatement.tsx:11
+msgid "Sie möchten Ihre Media Markt CLUB ShoppingCard Monatsrechnung hier sehen?"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ExtendPaymentPeriodModal/ExtendPaymentPeriodModal.tsx:87
+msgid "Sie möchten die Rechnung später zahlen?"
+msgstr ""
+
+#: src/layouts/OnboardingLayout/OnboardingLayout.tsx:62
+msgid "Sie sind neu hier?"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/EditNameModal/EditNameModal.tsx:213
+#: src/components/Settings/Lenguage/Lenguage.tsx:74
+msgid "Speichern"
+msgstr ""
+
+#: src/pages/profile/index.tsx:32
+msgid "Sprache"
+msgstr ""
+
+#: src/components/Settings/Lenguage/Lenguage.tsx:54
+msgid "Sprache für die Korrespondenz im Portal bearbeiten"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:142
+msgid "Telefon mobil eingeben"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ObjectToInvoiceModal/ObjectToInvoiceModal.tsx:28
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:18
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:19
+msgid "Telefonnummer ist nicht korrekt"
+msgstr ""
+
+#: src/components/CardSection/TransactionCard/TransactionCard.tsx:35
+msgid "Transaktionen"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:19
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:28
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:24
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:24
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:21
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:16
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:21
+msgid "Ungültiger Code"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:24
+#: src/components/Settings/Password/Password.tsx:30
+msgid "Ungültiges Bestätigungspasswort"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:18
+#: src/components/Settings/Password/Password.tsx:24
+msgid "Ungültiges Passwort"
+msgstr ""
+
+#: src/components/CardSection/PaymentProgress/PaymentProgress.tsx:42
+msgid "Verfügbar CHF"
+msgstr ""
+
+#: src/pages/bills/index.tsx:402
+msgid "Vergewissern Sie sich, dass Sie die E-Mail-Adresse und die Karten, von denen Sie die Rechnungen sehen möchten, hinzugefügt haben."
+msgstr ""
+
+#: src/components/AddEmail/AddEmail.tsx:15
+msgid "Vielleicht besitzen Sie mehrere E-Mail-Adressen, die Sie für Online-Einkäufe nutzen. Sie können jederzeit unter Einstellungen"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:174
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:176
+#: src/components/Settings/ContactInformation/Modal/EditNameModal/EditNameModal.tsx:183
+#: src/components/Settings/ContactInformation/Modal/EditNameModal/EditNameModal.tsx:185
+msgid "Vorname"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailCodeModal/PrimaryEmailCodeModal.tsx:187
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailLoginModal/PrimaryEmailLoginModal.tsx:152
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmainConfirmCodeModal/PrimaryEmainConfirmCodeModal.tsx:152
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryPhoneCodeModal/PrimaryPhoneCodeModal.tsx:186
+msgid "WEITER"
+msgstr ""
+
+#: src/components/Settings/Password/Password.tsx:147
+msgid "Was macht ein sicheres Passwort aus?"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:184
+msgid "Weiter"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:204
+msgid "Weitere E-Mail-Adressen"
+msgstr ""
+
+#: src/components/CardSection/CardsAndBills/CardsAndBills.tsx:9
+msgid "Weitere Karten & Konten"
+msgstr ""
+
+#: src/components/Pagination/Pagination.tsx:31
+msgid "Weitere anzeigen"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:130
+msgid "Wie lautet Ihre Mobilnummer?"
+msgstr ""
+
+#: src/components/OnboardingMenu/OnboardingMenu.tsx:20
+msgid "Willkommen"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:107
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:150
+msgid "Wir haben Ihnen einen Bestätigungscode"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Modal/ResendEmailCodeModal/ResendEmailCodeModal.tsx:16
+msgid "Wir haben Ihnen einen Bestätigungscode gesendet."
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Modal/ResendMobileCodeModal/ResendMobileCodeModal.tsx:16
+msgid "Wir haben Ihnen einen Bestätigungscode per SMS an Ihre Telefonnummer gesendet"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:167
+msgid "Wir haben Ihnen einen Code"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:153
+msgid "Wir haben Ihnen einen Code an"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordCodeModal/ForgotPasswordCodeModal.tsx:26
+msgid "Wir haben Ihnen einen Code an die von Ihnen angegebene"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryResendCodeModal/PrimaryResendCodeModal.tsx:25
+msgid "Wir haben Ihnen erneut einen Bestätigungscode gesendet."
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:128
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:128
+msgid "Wir konnten den Code nicht senden. Versuchen Sie es erneut"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailLoginModal/PrimaryEmailLoginModal.tsx:136
+msgid "Wir senden Ihnen einen Code an Ihre Mobilnummer. Den Code benötigen Sie für den nächsten Schritt."
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileStep.tsx:133
+msgid "Wir senden Ihnen einen Code, um Ihre"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ExtendPaymentPeriodModal/ExtendPaymentPeriodModal.tsx:103
+msgid "Zahlungsfrist verlängern"
+msgstr ""
+
+#: src/components/InterestStatements/InterestStatements.tsx:14
+msgid "Zinsausweise für 2022 ab 4. Januar 2023 verfügbar."
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:18
+msgid "Zulässige Zeichenanzahl (16)"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:173
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationUserInfoStep.tsx:215
+msgid "Zurück"
+msgstr ""
+
+#: src/components/Settings/Password/Password.tsx:153
+msgid "altes passwort"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:108
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:151
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:167
+msgid "an"
+msgstr ""
+
+#: src/layouts/MainLayout/MainLayout.tsx:27
+msgid "armaturenbrett"
+msgstr ""
+
+#: src/components/OnboardingMenu/OnboardingMenu.tsx:20
+msgid "bei my.availabill"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:109
+msgid "deine E-Mail"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:110
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailConfirmationStep.tsx:153
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:170
+msgid "geschickt."
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:155
+msgid "gesendet."
+msgstr ""
+
+#: src/components/CardSection/PaymentCard/PaymentCard.tsx:48
+msgid "keine Kartendaten"
+msgstr ""
+
+#: src/components/Settings/Password/Password.tsx:164
+msgid "neues passwort"
+msgstr ""
+
+#: src/components/Settings/Password/Password.tsx:175
+msgid "neues passwort bestätigen"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/ContactInformation.tsx:351
+msgid "nicht eingestellt"
+msgstr ""
+
+#: src/pages/index.tsx:136
+msgid "offen"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:131
+msgid "passwort"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:156
+msgid "passwort bestätigen"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Steps/LoginEmailStep.tsx:180
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationPasswordStep.tsx:145
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailLoginModal/PrimaryEmailLoginModal.tsx:128
+msgid "passwort eingeben"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailLoginModal/PrimaryEmailLoginModal.tsx:149
+msgid "passwort vergessen"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordCodeModal/ForgotPasswordCodeModal.tsx:32
+#: src/components/OnboardingSteps/Registration/Modal/ResendEmailCodeModal/ResendEmailCodeModal.tsx:21
+#: src/components/OnboardingSteps/Registration/Modal/ResendMobileCodeModal/ResendMobileCodeModal.tsx:23
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailSuccessModal/PrimaryEmailSuccessModal.tsx:20
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryResendCodeModal/PrimaryResendCodeModal.tsx:29
+#: src/components/Settings/Password/Modal/ChangePasswordSuccesModal/ChangePasswordSuccesModal.tsx:20
+msgid "schliessen"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordEmailModal/ForgotPasswordEmailModal.tsx:123
+#: src/components/OnboardingSteps/Login/Modal/ForgotPasswordFormModal/ForgotPasswordFormModal.tsx:149
+#: src/components/OnboardingSteps/Login/Modal/ObjectToInvoiceModal/ObjectToInvoiceModal.tsx:137
+msgid "senden"
+msgstr ""
+
+#: src/layouts/OnboardingLayout/OnboardingLayout.tsx:58
+msgid "um Ihre Rechnungen"
+msgstr ""
+
+#: src/components/MonthlyStatement/MonthlyStatement.tsx:28
+msgid "und folgen Sie den Anweisungen."
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:198
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:189
+msgid "weiter"
+msgstr ""
+
+#: src/components/OnboardingSteps/Login/Modal/ExtendPaymentPeriodModal/ExtendPaymentPeriodModal.tsx:56
+#: src/components/OnboardingSteps/Login/Modal/ExtendPaymentPeriodModal/ExtendPaymentPeriodModal.tsx:63
+#: src/components/OnboardingSteps/Login/Modal/ObjectToInvoiceModal/ObjectToInvoiceModal.tsx:77
+#: src/components/OnboardingSteps/Login/Modal/ObjectToInvoiceModal/ObjectToInvoiceModal.tsx:84
+#: src/components/Table/TableRow/TableRow.tsx:58
+#: src/components/Table/TableRow/TableRow.tsx:68
+#: src/components/Table/TableRow/TableRow.tsx:85
+#: src/components/Table/TableRow/TableRow.tsx:93
+#: src/components/Table/TableRow/TableRow.tsx:101
+#: src/components/Table/TableRow/TableRow.tsx:112
+#: src/components/Table/TableRow/TableRow.tsx:125
+msgid "{0}"
+msgstr ""
+
+#: src/components/BillsHeading/BillsHeading.tsx:17
+#: src/components/Table/Table.tsx:23
+msgid "{title}"
+msgstr ""
+
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationEmailConfirmationStep.tsx:173
+#: src/components/OnboardingSteps/Registration/Steps/RegistrationMobileConfirmationStep.tsx:161
+msgid "Ändern"
+msgstr ""
+
+#: src/components/HeaderMenu/HeaderMenu.tsx:10
+msgid "Über my.availabill"
+msgstr ""
+
+#: src/pages/index.tsx:141
+msgid "überfällig"
+msgstr ""
+
+#: src/components/Settings/ContactInformation/Modal/PrimaryEmailModals/PrimaryEmailSuccessModal/PrimaryEmailSuccessModal.tsx:16
+msgid "“E-Mail-Adresse” ist jetzt Ihre primäre E-Mail."
+msgstr ""

@@ -1,0 +1,133 @@
+@import "../../styles/sass/utils/variables";
+
+.heading {
+  font-size: 24px;
+  line-height: 33px;
+  color: $primary-text-color;
+  margin-bottom: 80px;
+}
+
+.backLink {
+  &:first-of-type {
+    margin-bottom: 25px;
+  }
+
+  &:last-of-type {
+    margin-top: 25px;
+  }
+
+  display: flex;
+  align-items: center;
+  width: fit-content;
+
+  svg {
+    transform: rotate(90deg);
+  }
+
+  span {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #848484;
+  }
+}
+
+.container {
+  container-type: inline-size;
+
+  .filtersRow {
+    .filterCard {
+      padding: 24px;
+      margin-bottom: 12px;
+      container-type: inline-size;
+      background: white;
+
+      .filterHeading {
+        margin-bottom: 24px;
+        font-size: 16px;
+      }
+
+      .filterContent {
+        @container (min-width: 700px) {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-end;
+          gap: 150px;
+        }
+
+        .clearButton {
+          height: max-content;
+        }
+
+        .filters {
+          display: flex;
+          flex: 1;
+          gap: 24px;
+          flex-wrap: wrap;
+          max-width: 60%;
+
+          @container (max-width: 700px) {
+            margin-bottom: 20px;
+            width: 100%;
+          }
+
+          & > div {
+            flex: 1;
+            min-width: 160px;
+          }
+
+          h5 {
+            font-size: 12px;
+            line-height: 16px;
+            color: #848484;
+            margin-bottom: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .paginationContainer {
+    container-type: inline-size;
+
+    .pagination {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 12px 0 26px;
+
+      @container (max-width: 850px) {
+        display: block;
+
+        .paginationBlock {
+          justify-content: space-between;
+          margin-bottom: 10px;
+        }
+      }
+
+      .downloadAll {
+        @container (max-width: 850px) {
+          justify-content: center;
+        }
+
+        padding: 8px 16px;
+        background: $primary-button-background-color;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: $white-text-color;
+        gap: 10px;
+        border-radius: 4px;
+
+        span {
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 16px;
+          letter-spacing: 0.07em;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

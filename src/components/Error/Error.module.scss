@@ -1,0 +1,14 @@
+@import "../../styles/sass/utils/variables";
+
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.35;
+  color: $error-color;
+}

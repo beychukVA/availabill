@@ -1,0 +1,166 @@
+@import "../../styles/sass/utils/variables";
+
+.container {
+  container-type: inline-size;
+
+  .cardSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    background-color: $white-text-color;
+    padding: 32px;
+    margin-bottom: 24px;
+    border: 1px solid #ecebeb;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+
+    .userInfo {
+      @container (min-width: 900px) {
+        grid-area: b;
+      }
+    }
+
+    .card {
+      text-align: center;
+
+      @container (min-width: 900px) {
+        padding-left: 60px;
+
+        text-align: left;
+      }
+    }
+
+    @container (min-width: 600px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @container (min-width: 900px) {
+      grid-template-columns: 0.7fr 1.1fr 1.1fr 1.1fr;
+      grid-template-areas: "a b c d";
+    }
+  }
+
+  .cardSectionMultipleRows {
+    @container (min-width: 600px) {
+      display: grid;
+      grid-template-areas:
+        "a b"
+        "c d";
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+
+    @container (min-width: 900px) {
+      grid-template-columns: 0.7fr 1.1fr 1.1fr 1.1fr;
+      grid-template-rows: 1fr auto;
+      grid-template-areas:
+        "a b c f"
+        "e d g h";
+    }
+
+    .cardGridContainer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: flex-start;
+      margin-top: -16px;
+      margin-left: -16px;
+      padding: 0 3px 0 0;
+      width: 302px;
+      max-height: 206px;
+      overflow: auto;
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+        min-width: 130px;
+        background: tomato;
+        border-radius: 4px;
+        flex-basis: calc(100% / 2 - 16px);
+        margin-top: 16px;
+        margin-left: 16px;
+        padding: 16px;
+        overflow: hidden;
+        cursor: pointer;
+
+        .overflowEllipsis {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+
+        & > span {
+          font-style: normal;
+          font-weight: 600;
+          line-height: 112.5%;
+          width: 100%;
+          color: #ffffff;
+          white-space: nowrap;
+        }
+
+        & .cardNumber {
+          font-size: 12px;
+        }
+
+        & .cardHolder {
+          font-size: 9px;
+        }
+      }
+    }
+  }
+
+  .cardHeading {
+    @container (min-width: 900px) {
+      grid-row: 1 / span2;
+    }
+  }
+
+  .progressBar {
+    @container (min-width: 600px) {
+      grid-area: d;
+    }
+  }
+}
+
+.settingCardsContainer {
+  @media (min-width: 600px) {
+    display: grid;
+    grid-template-areas: "a b";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .settingCard {
+    @media (min-width: 600px) {
+      margin-bottom: 0;
+    }
+
+    @media (min-width: 900px) {
+      display: grid;
+      grid-template-areas: "a b";
+      grid-template-columns: 0.7fr 1.2fr;
+      grid-template-rows: 1fr;
+    }
+  }
+
+  .yourShops {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 24px;
+    gap: 24px;
+    height: 100%;
+    background-color: #ffffff;
+    padding: 32px;
+    margin: 0 0 24px 0;
+    border: 1px solid #ecebeb;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+
+    @media (min-width: 600px) {
+      margin: 0 0 0 24px;
+    }
+  }
+}

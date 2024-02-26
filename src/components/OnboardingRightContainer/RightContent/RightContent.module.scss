@@ -1,0 +1,83 @@
+@import "../../../styles/sass/utils/variables";
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  height: 100%;
+  padding: 0 20px 27px 20px;
+
+  @media (min-width: $desktop) {
+    padding: 0 0 126px 99px;
+  }
+}
+
+.contentTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: $white-text-color;
+  margin-bottom: 10px;
+  max-width: 400px;
+
+  @media (min-width: $desktop) {
+    font-size: 32px;
+    line-height: 1.37;
+  }
+}
+
+.delimiter {
+  width: 47px;
+  height: 3px;
+  background-color: $accent-color;
+  margin-bottom: 0;
+
+  @media (min-width: $desktop) {
+    margin-bottom: 32px;
+  }
+}
+
+.contentSubtitle {
+  display: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: $white-text-color;
+  margin-bottom: 8px;
+
+  @media (min-width: $desktop) {
+    display: block;
+  }
+}
+
+.orangeSubTitle {
+  display: block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: $accent-color;
+  margin-bottom: 10px;
+
+  @media (min-width: $desktop) {
+    display: none;
+  }
+}
+
+.contentDescription {
+  display: none;
+  max-width: 265px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: $white-text-color;
+
+  @media (min-width: $desktop) {
+    display: block;
+  }
+}

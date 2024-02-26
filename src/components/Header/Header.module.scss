@@ -1,0 +1,32 @@
+@import "../../styles/sass/utils/variables";
+
+.header {
+  width: 100%;
+  border-bottom: 2px solid $light-gray;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+
+  .logoMenu {
+    display: flex;
+    align-items: center;
+
+    .logoAvailabill {
+      display: flex;
+      height: 25px;
+      width: 115px;
+    }
+  }
+
+  .headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 20px;
+    background: $secondary-background-color;
+
+    @media (min-width: $tablet) {
+      padding: 19px 22px;
+    }
+  }
+}

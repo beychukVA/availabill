@@ -1,0 +1,32 @@
+@import "../../styles/sass/utils/variables";
+
+.addEmailWrapper {
+  padding: 24px;
+  padding-bottom: 100px; // remove once other cards are implemented
+}
+
+.addEmailButton {
+  cursor: pointer;
+}
+
+.addEmailDescWrapper {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+
+  .addEmailDescHeading {
+    color: $primary-text-color;
+  }
+
+  .addEmailDesc {
+    font-weight: 400;
+    margin-top: 20px;
+    color: $secondary-text-color;
+  }
+
+  .addEmailCTA {
+    font-weight: 400;
+    color: $primary-text-color;
+  }
+}

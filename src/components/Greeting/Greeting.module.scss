@@ -1,0 +1,9 @@
+@import "../../styles/sass/utils/variables";
+
+.greeting {
+  font-size: 24px;
+  font-weight: 400;
+  color: $primary-text-color;
+  line-height: 33px;
+  margin-bottom: 80px;
+}

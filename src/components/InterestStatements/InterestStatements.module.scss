@@ -1,0 +1,11 @@
+@import "../../styles/sass/utils/variables";
+
+.interestStatements {
+  padding: 24px;
+
+  .interestText {
+    font-size: 14px;
+    line-height: 19px;
+    color: $secondary-text-color;
+  }
+}

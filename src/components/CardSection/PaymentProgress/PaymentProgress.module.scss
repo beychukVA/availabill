@@ -1,0 +1,25 @@
+@import "../../../styles/sass/utils/variables";
+
+.paymentProgress {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.lower {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: $secondary-text-color;
+}
+
+.upper {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: $primary-text-color;
+}
+
+.progressBar {
+  width: 100%;
+}

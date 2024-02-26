@@ -1,0 +1,111 @@
+@import "../../../styles/sass/utils/variables";
+
+.card {
+  overflow: hidden;
+  background: #ffffff !important;
+  border: 1px solid #ecebeb;
+  border-radius: 4px;
+  padding: 24px;
+  width: 100%;
+  margin-top: 16px;
+  margin-left: 16px;
+
+  .overflowEllipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.paddingRightZero {
+  padding-right: 0;
+}
+
+.cardsBlockCard {
+  padding: 0 !important;
+  padding-right: 0;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  background: #ffffff !important;
+
+  h5 {
+    font-size: 14px;
+    color: #222222;
+  }
+
+  .note {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: $secondary-text-color;
+    margin-top: 16px;
+  }
+
+  .plusBlock {
+    padding: 16px 11px;
+    border-radius: 4px 0px 0px 4px;
+    background: #f2f2f2;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.paymentCardRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 10px;
+
+  .amount {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    text-align: center;
+    color: $primary-text-color;
+  }
+
+  .currency {
+    font-family: "Open Sans";
+    font-size: 14px;
+    margin-right: 5px;
+  }
+
+  .number {
+    font-size: 36px;
+    font-family: "Encode Sans";
+  }
+
+  .text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: $secondary-text-color;
+  }
+
+  .date {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: $primary-text-color;
+  }
+
+  &.bottomGap15 {
+    margin-bottom: 15px;
+  }
+
+  &.bottomGap8 {
+    margin-bottom: 8px;
+  }
+}
+
+.centerAmount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

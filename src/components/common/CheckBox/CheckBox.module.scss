@@ -1,0 +1,59 @@
+@import "../../../styles/sass/utils/variables";
+
+.checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.checkbox + label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.checkbox + label::before {
+  position: absolute;
+  top: auto;
+  left: -29px;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 19px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #383e42;
+  border-radius: 2px;
+  margin-right: 9px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.checkbox + label.labelTop::before {
+  top: calc(100% + 9px);
+  left: 0;
+}
+
+.checkbox:checked + label::before {
+  border-color: $accent-color;
+  background-color: $accent-color;
+  background-image: url("../../../assets/icon/check-mark-icon.svg");
+}
+
+.checkbox:not(:disabled):not(:checked) + label:hover::before {
+  border-color: $accent-color;
+}
+.checkbox:not(:disabled):active + label::before {
+  background-color: $accent-color;
+  border-color: $accent-color;
+}
+.checkbox:focus + label::before {
+  box-shadow: 0 0 0 0.2rem rgba(255, 128, 0, 0.25);
+}
+.checkbox:focus:not(:checked) + label::before {
+  border-color: $accent-color;
+}
+.checkbox:disabled + label::before {
+  background-color: #e9ecef;
+}

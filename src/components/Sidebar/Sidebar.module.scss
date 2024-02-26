@@ -1,0 +1,70 @@
+@import "../../styles/sass/utils/variables";
+
+.sidebar {
+  background-color: $white-text-color;
+  min-width: 230px;
+  align-self: flex-start;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  left: -250px;
+  transition: 0.3s left ease-in-out;
+  z-index: 1;
+  border-right: 2px solid $light-gray;
+  display: flex;
+  flex-direction: column;
+  padding-top: 54px;
+
+  &.open {
+    left: 0;
+  }
+
+  @media (min-width: $tablet) {
+    position: sticky;
+    padding-top: 0;
+    border-right: 0;
+    padding-top: 75px;
+  }
+
+  @media (max-width: $tablet) {
+    height: auto !important;
+  }
+
+  .navLink {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 16px 0px;
+    font-size: 14px;
+    color: #848484;
+    padding-left: 10%;
+    position: relative;
+    transition: 0.2s ease-in-out;
+
+    &.active {
+      color: $primary-text-color;
+
+      &::after {
+        height: 100%;
+        top: 0;
+      }
+    }
+
+    &:hover {
+      color: $primary-text-color;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    &::after {
+      width: 2px;
+      height: 0;
+      background-color: $primary-text-color;
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: -2px;
+      transition: top 0.2s cubic-bezier(0.215, 0.61, 0.355, 1),
+        height 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  }
+}

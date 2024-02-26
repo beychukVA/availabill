@@ -1,0 +1,250 @@
+@import "../../styles/sass/utils/variables";
+
+.digitalServicesBlock {
+  margin-bottom: 24px;
+  container-type: inline-size;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 48px;
+    font-size: 16px;
+    line-height: 22px;
+    color: $primary-text-color;
+    font-weight: 600;
+
+    h3 {
+      font-weight: 700;
+      font-size: 20px;
+      color: #222222;
+    }
+
+    h5 {
+      font-weight: 400;
+      font-size: 16px;
+      color: #222222;
+    }
+  }
+
+  .listBlock {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 48px;
+
+    @container (min-width: 450px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @container (min-width: 700px) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .listBlockHeading {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+  }
+}
+
+.registrationBlock {
+  margin-bottom: 24px;
+  container-type: inline-size;
+
+  .container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 48px;
+    padding: 48px;
+    font-size: 16px;
+    line-height: 22px;
+    color: $primary-text-color;
+    font-weight: 600;
+
+    @container (min-width: 1000px) {
+      width: 50%;
+    }
+
+    h3 {
+      font-weight: 700;
+      font-size: 20px;
+      color: #222222;
+    }
+
+    h5 {
+      font-weight: 400;
+      font-size: 14px;
+      color: #848484;
+    }
+
+    .inputsContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+
+      .inputBlock {
+        display: flex;
+        gap: 12px;
+        flex-direction: column;
+
+        @container (min-width: 500px) {
+          flex-direction: row;
+        }
+      }
+
+      .registerCardSuccessGeneral {
+        color: $primary-button-hover-color;
+      }
+    }
+  }
+}
+
+.infoContainer {
+  margin: 0 48px 48px;
+
+  .infoBlock {
+    background: #f2f2f2;
+    padding: 12px;
+
+    h5 {
+      font-weight: 400;
+    }
+
+    span {
+      font-weight: 600;
+    }
+
+    @container (min-width: 500px) {
+      padding: 48px;
+      flex-direction: row;
+    }
+  }
+}
+
+.cardsContainer {
+  container-type: inline-size;
+
+  .cardsBlock {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 50px;
+    gap: 50px;
+    background: #f2f2f2;
+    border-radius: 4px;
+    margin-bottom: 24px;
+
+    @container (min-width: 450px) {
+      grid-template-columns: 2fr 0.5fr 0.5fr;
+    }
+
+    @container (min-width: 1000px) {
+      grid-template-columns: 2.5fr 0.75fr 0.75fr;
+    }
+
+    .cardsBlockText {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      h3 {
+        font-weight: 700;
+        font-size: 20px;
+      }
+
+      .registerCode {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        span {
+          font-weight: 600;
+          font-size: 12px;
+          text-transform: uppercase;
+          color: #848484;
+        }
+      }
+
+      h5 {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        color: #222222;
+      }
+    }
+
+    .cardsBlockCard {
+      padding: 24px;
+      padding-right: 0;
+      align-items: center;
+      display: flex;
+      gap: 10px;
+      justify-content: space-between;
+
+      h5 {
+        font-size: 14px;
+        color: #222222;
+      }
+
+      .plusBlock {
+        padding: 16px 11px;
+        border-radius: 4px 0px 0px 4px;
+        background: #f2f2f2;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        transition: 0.2s ease-in-out;
+
+        svg path {
+          transition: 0.2s ease-in-out;
+        }
+
+        &:hover {
+          background: $primary-button-hover-color;
+
+          svg path {
+            fill: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.resendCode {
+  span {
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #848484;
+    cursor: pointer;
+  }
+}
+
+.heading {
+  font-size: 24px;
+  line-height: 33px;
+  color: $primary-text-color;
+  margin-bottom: 80px;
+}
+
+.loading {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.registerCardError {
+  color: $error-color;
+  font-size: 12px;
+}
+
+.registerCardErrorGeneral {
+  color: $error-color;
+  font-size: 14px;
+}
+
+.spinner {
+  position: absolute;
+  left: 2px;
+}

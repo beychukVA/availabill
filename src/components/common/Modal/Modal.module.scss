@@ -1,0 +1,90 @@
+@import "../../../styles/sass/utils/variables";
+
+@keyframes show-opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes show-content {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  background-color: $content-backdrop-background-color;
+  pointer-events: none;
+  transition: $transition;
+
+  &.portalModal {
+    animation: show-opacity 0.2s ease-in-out;
+  }
+}
+
+.modal.open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  max-width: 85%;
+  max-height: 85%;
+  overflow: auto;
+  padding: 24px;
+  border-radius: 4px;
+  box-shadow: $box-shadow;
+  background-color: $secondary-background-color;
+  transform: scale(0.5);
+  transition: $transition;
+
+  @media (min-width: $tablet) {
+    max-width: 583px;
+  }
+
+  &.contentPortalModal {
+    animation: show-content 0.2s ease-in-out;
+  }
+}
+
+.content.open {
+  transform: scale(1);
+}
+
+.close {
+  position: absolute;
+  top: 25.5px;
+  right: 25.5px;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+
+  & svg {
+    width: 15px;
+    height: 15px;
+    transition: $transition;
+    fill: $primary-button-background-color;
+  }
+
+  &:hover svg {
+    fill: $link-hover-color;
+  }
+}

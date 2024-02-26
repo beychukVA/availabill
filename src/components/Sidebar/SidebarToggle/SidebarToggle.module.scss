@@ -1,0 +1,66 @@
+@import "../../../styles/sass/utils/variables";
+
+$size: 30px;
+$height: 20px;
+$width: 30px;
+$line-size: 3px;
+$line-color: #ff8000;
+$line-radius: $line-size;
+$to-translate: ($height - $line-size) / 2;
+$bounce: cubic-bezier(0.87, -0.5, 0.19, 1.5);
+
+.menu {
+  position: relative;
+  height: $size;
+  width: $size;
+  cursor: pointer;
+  overflow: hidden;
+  margin-right: 20px;
+
+  @media (min-width: $tablet) {
+    display: none;
+  }
+
+  &Icon {
+    position: absolute;
+    width: $width;
+    height: $height;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &Line {
+    position: absolute;
+    left: 0;
+    background-color: $line-color;
+    height: $line-size;
+    width: 100%;
+    border-radius: $line-radius;
+    pointer-events: none;
+    &One {
+      top: 0;
+    }
+    &Two {
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+    &Three {
+      bottom: 0;
+    }
+  }
+
+  &BackTwo &LineOne,
+  &BackTwo &LineThree {
+    transition: transform 0.3s ease-in-out;
+  }
+  // Open
+  &BackTwo.open &LineOne {
+    transform: translate3d(-6.5px, 1px, 0) rotate(-225deg) scaleX(0.7);
+    transition: transform 0.3s ease-in-out;
+  }
+  &BackTwo.open &LineThree {
+    transform: translate3d(-6.5px, -1px, 0) rotate(225deg) scaleX(0.7);
+    transition: transform 0.3s ease-in-out;
+  }
+}

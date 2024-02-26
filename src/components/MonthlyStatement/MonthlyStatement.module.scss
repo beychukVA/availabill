@@ -1,0 +1,24 @@
+@import "../../styles/sass/utils/variables";
+
+.monthlyStatement {
+  padding: 24px;
+
+  .statementMain {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: $primary-text-color;
+    margin-bottom: 20px;
+  }
+
+  .statementSub {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: $secondary-text-color;
+  }
+
+  .statementHighlight {
+    color: $accent-color;
+  }
+}

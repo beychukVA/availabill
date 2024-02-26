@@ -1,0 +1,21 @@
+@import "../../styles/sass/utils/variables";
+
+.container {
+  container-type: inline-size;
+
+  .cardRow {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 24px;
+    gap: 8px;
+
+    @container (min-width: 600px) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @container (min-width: 900px) {
+      grid-template-columns: 2fr 1fr 1fr;
+      grid-template-areas: "a b c";
+    }
+  }
+}

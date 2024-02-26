@@ -1,0 +1,35 @@
+@import "../../../../styles/sass/utils/variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.35;
+  color: $secondary-text-color;
+  margin-top: 32px;
+}
+
+.back {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.errorContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.errorMessage {
+  color: $error-color;
+}

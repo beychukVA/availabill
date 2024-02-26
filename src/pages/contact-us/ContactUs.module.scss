@@ -1,0 +1,20 @@
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 8px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  margin-left: 18px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  width: 24px;
+}

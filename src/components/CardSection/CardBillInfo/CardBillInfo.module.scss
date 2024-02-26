@@ -1,0 +1,27 @@
+@import "../../../styles/sass/utils/variables";
+
+.text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: $secondary-text-color;
+}
+
+.highlightedText {
+  color: $primary-text-color;
+}
+
+.heading {
+  margin-bottom: 8px;
+}
+
+.logo {
+  width: auto;
+  margin-bottom: 7px;
+}
+
+.date {
+  margin-bottom: 2px;
+}

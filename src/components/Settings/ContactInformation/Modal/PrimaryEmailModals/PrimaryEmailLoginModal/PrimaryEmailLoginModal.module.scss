@@ -1,0 +1,48 @@
+@import "../../../../../../styles/sass/utils/variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.35;
+  color: $primary-text-color;
+  margin-bottom: 24px;
+}
+
+.description {
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: $secondary-text-color;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.margin {
+  margin-right: 0;
+
+  @media (min-width: $tablet) {
+    margin-right: 93px;
+  }
+}

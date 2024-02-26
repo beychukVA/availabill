@@ -1,0 +1,194 @@
+@import "../../../styles/sass/utils/variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+.fieldContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 24px;
+
+  @media (min-width: $desktop) {
+    flex-direction: row;
+  }
+}
+
+.emails {
+  & > :not(:first-child) {
+    margin-top: 16px;
+  }
+}
+
+.phones {
+  //   & > :not(:first-child) {
+  //     margin-top: 16px;
+  //   }
+}
+
+.address {
+  // & > :not(:first-child) {
+  //   margin-top: 16px;
+  // }
+}
+
+.addressMenu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 0;
+  margin-left: 0;
+  overflow: hidden;
+  margin-top: 0 !important;
+  transition: height 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+  @media (min-width: $desktop) {
+    margin-left: 153px;
+  }
+
+  & > :not(:first-child) {
+    margin-left: 16px !important;
+  }
+
+  &.active {
+    height: 34px;
+    // margin-top: 16px !important;
+    transition: height 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+}
+
+.emailMenu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 0;
+  overflow: hidden;
+  margin-top: 0 !important;
+  transition: height 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+  & > :not(:first-child) {
+    margin-left: 16px !important;
+  }
+
+  &.active {
+    height: 34px;
+    margin-top: 16px !important;
+    transition: height 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+}
+
+.phoneMenu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 0;
+  height: 0;
+  overflow: hidden;
+  margin-top: 0 !important;
+  transition: height 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+  @media (min-width: $desktop) {
+    margin-left: 153px;
+  }
+
+  & > :not(:first-child) {
+    margin-left: 16px !important;
+  }
+
+  &.active {
+    height: 34px;
+    margin-bottom: 24px;
+    transition: height 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  @media (min-width: $desktop) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+.fieldName {
+  width: 137px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  color: $secondary-text-color;
+  margin-right: 16px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+
+  @media (min-width: $desktop) {
+    margin-bottom: 0;
+  }
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.fieldValue {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.375;
+  color: $primary-text-color;
+}
+
+.fieldValueContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  @media (min-width: $desktop) {
+    align-items: center;
+  }
+}
+
+.fieldDesc {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  color: $secondary-text-color;
+  max-width: 402px;
+  margin-top: 2px;
+}
+
+.edit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+  cursor: pointer;
+
+  & svg {
+    transition: $transition;
+    fill: $primary-text-color;
+  }
+
+  &:hover svg {
+    fill: $accent-color;
+  }
+}

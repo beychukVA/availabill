@@ -1,0 +1,21 @@
+@import "@/styles/sass/utils/variables";
+
+.modalInnerContent {
+  h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #222222;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 14px;
+    color: #848484;
+    margin-bottom: 24px;
+  }
+
+  .buttonBlock {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

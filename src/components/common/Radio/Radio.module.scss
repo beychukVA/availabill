@@ -1,0 +1,65 @@
+@import "../../../styles/sass/utils/variables";
+
+.radio {
+  display: flex;
+  align-items: center;
+  input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    + .radioLabel {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 1.33;
+      color: $secondary-text-color;
+
+      &:before {
+        content: "";
+        background: $secondary-background-color;
+        border-radius: 100%;
+        border: $input-border;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        position: relative;
+        margin-right: 4px;
+        vertical-align: top;
+        cursor: pointer;
+        text-align: center;
+        transition: $transition;
+      }
+    }
+    &:checked {
+      + .radioLabel {
+        &:before {
+          background-color: $secondary-text-color;
+          box-shadow: inset 0 0 0 4px $secondary-background-color;
+        }
+      }
+    }
+    &:focus {
+      + .radioLabel {
+        &:before {
+          outline: none;
+          border-color: $input-border-color;
+        }
+      }
+    }
+    &:disabled {
+      + .radioLabel {
+        &:before {
+          box-shadow: inset 0 0 0 4px $secondary-background-color;
+          border-color: darken($input-border-color, 25%);
+          background: darken($secondary-background-color, 25%);
+        }
+      }
+    }
+    + .radioLabel {
+      &:empty {
+        &:before {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

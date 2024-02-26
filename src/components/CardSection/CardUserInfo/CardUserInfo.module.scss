@@ -1,0 +1,24 @@
+@import "../../../styles/sass/utils/variables";
+
+.cardInfo {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: $primary-text-color;
+
+  .mainInfo {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .emailAdresses {
+    margin-bottom: 20px;
+  }
+
+  .addAdress {
+    white-space: nowrap;
+    font-size: 12px;
+  }
+}

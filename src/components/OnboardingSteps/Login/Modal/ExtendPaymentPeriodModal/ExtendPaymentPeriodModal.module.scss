@@ -1,0 +1,91 @@
+@import "../../../../../styles/sass/utils/variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: $primary-text-color;
+  margin-bottom: 24px;
+  line-height: 27px;
+  color: $primary-text-color;
+}
+
+.description {
+  width: 100%;
+  max-width: 442px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: $secondary-text-color;
+}
+
+.loadingBlock {
+  padding: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+
+  & > button > span {
+    font-size: 10px !important;
+  }
+
+  @media (min-width: $tablet) {
+    & > button > span {
+      font-size: 12px !important;
+    }
+  }
+}
+
+.inputWrapper {
+  border: 1px solid rgba(34, 34, 34, 0.3);
+  border-radius: 4px;
+  display: flex;
+  width: 100%;
+  padding: 8px 12px;
+
+  input {
+    appearance: none;
+    outline: none;
+    border: none;
+    flex: 1;
+    padding-left: 8px;
+  }
+}
+
+.phoneNumberError {
+  color: $error-color;
+  height: 20px;
+}
+
+.close {
+  position: absolute;
+  top: 25.5px;
+  right: 25.5px;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+
+  & svg {
+    width: 15px;
+    height: 15px;
+    transition: $transition;
+    fill: $primary-button-background-color;
+  }
+
+  &:hover svg {
+    fill: $link-hover-color;
+  }
+}

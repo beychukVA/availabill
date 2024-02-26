@@ -1,0 +1,26 @@
+@import "../../styles/sass/utils/variables";
+
+.accordion {
+  border: 1px solid #ecebeb;
+  padding: 24px;
+  margin-bottom: 20px;
+
+  .accordionHeader {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .chevron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+  }
+
+  h3 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #222222;
+  }
+}

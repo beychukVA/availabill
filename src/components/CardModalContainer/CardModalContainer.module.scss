@@ -1,0 +1,13 @@
+@import "../../styles/sass/utils/variables";
+
+.modalContent {
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  max-width: 600px;
+
+  @media (min-width: 999px) {
+    min-width: 600px;
+  }
+}

@@ -1,0 +1,81 @@
+@import "../../styles/sass/utils/variables";
+
+.container {
+  container-type: inline-size;
+
+  .heading {
+    font-size: 24px;
+    line-height: 33px;
+    color: $primary-text-color;
+    margin-bottom: 80px;
+  }
+
+  .table {
+    margin-bottom: 20px;
+  }
+
+  .noData {
+    padding: 48px;
+
+    div {
+      display: flex;
+      align-items: center;
+      margin-bottom: 25px;
+      gap: 25px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 27px;
+      color: $primary-text-color;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+
+      color: $secondary-text-color;
+    }
+  }
+}
+
+.paginationContainer {
+  container-type: inline-size;
+
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @container (max-width: 850px) {
+      display: block;
+
+      .paginationBlock {
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+    }
+
+    .downloadAll {
+      @container (max-width: 850px) {
+        justify-content: center;
+      }
+
+      padding: 8px 16px;
+      background: $primary-button-background-color;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: $white-text-color;
+      gap: 10px;
+      border-radius: 4px;
+
+      span {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

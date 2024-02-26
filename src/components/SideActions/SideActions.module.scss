@@ -1,0 +1,30 @@
+@import "../../styles/sass/utils/variables";
+
+.actions {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  .icon {
+    width: 60px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $accent-color;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+      width: 70px;
+    }
+
+    &:first-of-type {
+      margin-bottom: 1px;
+    }
+  }
+}

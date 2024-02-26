@@ -1,0 +1,15 @@
+@import "../../../styles/sass/utils/variables";
+
+.logo {
+  display: flex;
+
+  & svg {
+    height: 20px;
+    width: 83px;
+
+    @media (min-width: $tablet) {
+      height: 28px;
+      width: 115px;
+    }
+  }
+}

@@ -1,0 +1,73 @@
+@import "../../styles/sass/utils/variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+
+  @media (min-width: $tablet) {
+    width: 557px;
+    height: 240px;
+  }
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: $primary-text-color;
+  margin-bottom: 24px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+
+  @media (min-width: $tablet) {
+    width: 436px;
+  }
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: $secondary-text-color;
+}
+
+.bold {
+  color: $primary-text-color;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.highlight {
+  color: $accent-color;
+  font-weight: 600;
+}
+
+.hours {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.delimiter {
+  width: 100%;
+  height: 1px;
+  background: $delimiter-color;
+  margin: 12px 0;
+}

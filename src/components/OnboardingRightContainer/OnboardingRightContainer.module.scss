@@ -1,0 +1,156 @@
+@import "../../styles/sass/utils/variables";
+
+.rightContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.rightContainer.onboarding {
+  background-image: url("../../assets/images/onboarding-img.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 402px;
+
+  @media (min-width: $tablet) {
+    height: calc(100vh - 62px);
+  }
+
+  @media (min-width: $desktop) {
+    height: 100vh;
+  }
+}
+
+.rightContainer.login_email {
+  background-image: url("../../assets/images/onboarding-img.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 402px;
+
+  @media (min-width: $tablet) {
+    height: calc(100vh - 62px);
+  }
+
+  @media (min-width: $desktop) {
+    height: 100vh;
+  }
+}
+
+.rightContainer.login_email_confirmation {
+  background-image: url("../../assets/images/onboarding-img.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 402px;
+
+  @media (min-width: $tablet) {
+    height: calc(100vh - 62px);
+  }
+
+  @media (min-width: $desktop) {
+    height: 100vh;
+  }
+}
+
+.rightContainer.registration_email {
+  background-image: url("../../assets/images/registration_email.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 402px;
+
+  @media (min-width: $tablet) {
+    height: calc(100vh - 62px);
+  }
+
+  @media (min-width: $desktop) {
+    height: 100vh;
+  }
+}
+
+.rightContainer.registration_email_confirmation {
+  background-image: url("../../assets/images/registration_email_confirmation.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 402px;
+
+  @media (min-width: $tablet) {
+    height: calc(100vh - 62px);
+  }
+
+  @media (min-width: $desktop) {
+    height: 100vh;
+  }
+}
+
+.rightContainer.registration_mobile {
+  background-image: url("../../assets/images/registration_mobile.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 402px;
+
+  @media (min-width: $tablet) {
+    height: calc(100vh - 62px);
+  }
+
+  @media (min-width: $desktop) {
+    height: 100vh;
+  }
+}
+
+.rightContainer.registration_mobile_confirmation {
+  background-image: url("../../assets/images/registration_mobile_confirmation.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 402px;
+
+  @media (min-width: $tablet) {
+    height: calc(100vh - 62px);
+  }
+
+  @media (min-width: $desktop) {
+    height: 100vh;
+  }
+}
+
+.rightContainer.registration_password {
+  background-image: url("../../assets/images/registration_password.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 402px;
+
+  @media (min-width: $tablet) {
+    height: calc(100vh - 62px);
+  }
+
+  @media (min-width: $desktop) {
+    height: 100vh;
+  }
+}
+
+.rightContainer.registration_user_info {
+  background-image: url("../../assets/images/onboarding-img.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 402px;
+
+  @media (min-width: $tablet) {
+    height: calc(100vh - 62px);
+  }
+
+  @media (min-width: $desktop) {
+    height: 100vh;
+  }
+}
+
+.backdrop {
+  width: 100%;
+  height: 100%;
+  background: $content-backdrop-background-color;
+}

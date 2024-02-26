@@ -1,0 +1,430 @@
+@import "../../styles/sass/utils/variables";
+
+.emailSection {
+  margin-bottom: 8px;
+
+  & .emailList {
+    & :not(:last-child) {
+      margin-bottom: 8px;
+    }
+
+    & .email {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 19px;
+      color: $secondary-text-color;
+    }
+  }
+}
+
+.inputBlock {
+  border: 1px solid rgba(34, 34, 34, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  flex: 1;
+
+  .dates {
+    display: flex;
+    gap: 2px;
+    flex: 1;
+    min-width: 0;
+
+    span {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+.sliderRail {
+  background: #d9d9d9;
+}
+
+.sliderRoot {
+  color: #ff8000;
+
+  .sliderThumb {
+    .sliderValueLabel {
+      transform: translateY(150%) !important;
+      background: none;
+      color: black;
+      background: none;
+      font-family: "Open Sans";
+      padding: 0;
+    }
+
+    &:nth-last-child(1) {
+      .sliderValueLabel {
+        right: 0;
+      }
+    }
+
+    &:nth-last-child(2) {
+      .sliderValueLabel {
+        left: 0;
+      }
+    }
+  }
+}
+
+.modalContent {
+  padding: 0;
+}
+
+.datepicker {
+  font-family: "Open sans";
+
+  @media (max-width: 1100px) {
+    :global {
+      display: flex;
+
+      .rdrMonths {
+        display: block;
+      }
+
+      div.rdrMonth:first-of-type {
+        border-right: 0;
+      }
+
+      .rdrMonth {
+        width: 100%;
+      }
+
+      .rdrCalendarWrapper {
+        flex: 1.5;
+      }
+    }
+  }
+
+  @media (max-width: 810px) {
+    :global {
+      .rdrDefinedRangesWrapper {
+        width: 150px;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    :global {
+      display: block;
+
+      .rdrDefinedRangesWrapper {
+        width: 100%;
+        border-right: 0;
+      }
+
+      .rdrStaticRangeLabel {
+        text-align: center;
+      }
+
+      .rdrCalendarWrapper {
+        width: 100%;
+      }
+    }
+  }
+
+  :global {
+    .rdrMonth:first-of-type {
+      border-right: 1px solid #ecebeb;
+    }
+
+    .rdrStartEdge,
+    .rdrEndEdge {
+      color: #ff8000 !important;
+      border-radius: 50%;
+      width: 31px;
+      height: 31px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      & ~ .rdrDayNumber > span {
+        color: white !important;
+      }
+    }
+
+    .rdrInRange {
+      color: #f2f2f2;
+      border-radius: 50%;
+      width: 31px;
+      height: 31px;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .rdrStaticRange {
+      border-bottom: 0;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+
+      .rdrStaticRangeLabel {
+        &:focus {
+          background: none;
+        }
+      }
+
+      &.rdrStaticRangeSelected {
+        border-radius: 4px;
+        margin-right: 5px;
+        background: #f2f2f2;
+
+        .rdrStaticRangeLabel {
+          color: black;
+          font-weight: normal;
+        }
+      }
+    }
+
+    .rdrDayInPreview,
+    .rdrDayEndPreview,
+    .rdrDayStartPreview {
+      border: none;
+    }
+
+    .rdrDay {
+      &:not(.rdrStartEdge):not(.rdrDayPassive) .rdrDayNumber > span {
+        color: black;
+      }
+
+      &:not(.rdrEndEdge):not(.rdrDayPassive) .rdrDayNumber > span {
+        color: black;
+      }
+
+      font-family: "Open Sans";
+      font-size: 16px;
+
+      &.rdrDayToday {
+        span::after {
+          display: none;
+        }
+      }
+    }
+
+    .rdrDayStartPreview.rdrDayEndPreview {
+      border: none;
+    }
+  }
+}
+
+.datepickerButtons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 100%;
+  padding: 8px;
+}
+
+.datepickerInputs {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  border-right: 1px solid #ecebeb;
+
+  @media (max-width: 810px) {
+    border: 0;
+  }
+
+  padding: 8px;
+}
+
+.datepickerInputsBlock {
+  display: flex;
+  align-items: center;
+  margin-left: 225px;
+  border-top: 1px solid #ecebeb;
+  border-left: 1px solid #ecebeb;
+
+  @media (max-width: 810px) {
+    display: block;
+    margin-left: 0;
+    border: 0;
+  }
+
+  .calendarIcon {
+    display: flex;
+  }
+}
+
+.noData {
+  padding: 48px;
+
+  div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    gap: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: $primary-text-color;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: $secondary-text-color;
+  }
+}
+
+.heading {
+  font-size: 24px;
+  line-height: 33px;
+  color: $primary-text-color;
+  margin-bottom: 80px;
+}
+
+.filterCard {
+  padding: 24px;
+  margin-bottom: 12px;
+  container-type: inline-size;
+
+  .filterHeading {
+    margin-bottom: 24px;
+    font-size: 16px;
+  }
+
+  .filterContent {
+    @container (min-width: 700px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 150px;
+    }
+
+    .calendarIcon {
+      min-width: 18px;
+      display: flex;
+    }
+
+    .clearButton {
+      height: max-content;
+    }
+
+    .filters {
+      display: flex;
+      flex: 1;
+      gap: 24px;
+      flex-wrap: wrap;
+
+      @container (max-width: 700px) {
+        margin-bottom: 20px;
+      }
+
+      & > div {
+        flex: 1;
+        min-width: 160px;
+      }
+
+      h5 {
+        font-size: 12px;
+        line-height: 16px;
+        color: #848484;
+        margin-bottom: 12px;
+      }
+    }
+  }
+}
+
+.userEmailWrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 24px;
+  font-size: 16px;
+  line-height: 22px;
+  color: $primary-text-color;
+  font-weight: 600;
+
+  .userEmail {
+    margin-right: 8px;
+  }
+
+  .verified {
+    display: flex;
+  }
+
+  .allEmailLabel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: $primary-text-color;
+    margin-left: auto;
+  }
+}
+.results {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  .paginationContainer {
+    container-type: inline-size;
+
+    .pagination {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      @container (max-width: 850px) {
+        display: block;
+
+        .paginationBlock {
+          justify-content: space-between;
+          margin-bottom: 10px;
+        }
+      }
+
+      .downloadAll {
+        cursor: pointer;
+
+        @container (max-width: 850px) {
+          justify-content: center;
+        }
+
+        padding: 8px 16px;
+        background: $primary-button-background-color;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: $white-text-color;
+        gap: 10px;
+        border-radius: 4px;
+
+        span {
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 16px;
+          letter-spacing: 0.07em;
+          text-transform: uppercase;
+        }
+
+        &.pdfLoading {
+          cursor: not-allowed;
+          pointer-events: none;
+          animation: pulse 1s ease-in-out infinite;
+        }
+      }
+    }
+  }
+}

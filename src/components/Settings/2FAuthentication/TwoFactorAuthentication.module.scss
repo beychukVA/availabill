@@ -1,0 +1,31 @@
+@import "../../../styles/sass/utils/variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.35;
+  color: $primary-text-color;
+  margin-bottom: 24px;
+}
+
+.description {
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: $primary-text-color;
+}
+
+.tfaParagraph {
+  margin-bottom: 40px;
+}

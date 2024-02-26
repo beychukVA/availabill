@@ -1,0 +1,25 @@
+@import "../../styles/sass/utils/variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 100%;
+
+  .content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    background-color: white;
+
+    .main {
+      position: relative;
+      background-color: $section-background-color;
+      width: 100%;
+      overflow: hidden;
+    }
+  }
+}

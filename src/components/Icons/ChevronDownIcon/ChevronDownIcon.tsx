@@ -1,0 +1,16 @@
+import React from "react";
+
+export const ChevronDownIcon = ({ color }: { color?: string }): JSX.Element => (
+  <svg
+    width="18"
+    height="19"
+    viewBox="0 0 18 19"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M5.5575 6.9375L9 10.38L12.4425 6.9375L13.5 8.0025L9 12.5025L4.5 8.0025L5.5575 6.9375Z"
+      fill={color || "#848484"}
+    />
+  </svg>
+);

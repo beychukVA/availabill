@@ -1,0 +1,81 @@
+@import "../../../styles/sass/utils/variables";
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px 24px;
+  gap: 15px;
+  border: 1px dashed $sand-gray;
+  border-radius: 4px;
+
+  .yourCards {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: $primary-text-color;
+  }
+
+  .addCard {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+    .text {
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 16px;
+      color: $secondary-text-color;
+    }
+  }
+}
+
+.card {
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #ecebeb;
+  border-radius: 4px;
+  padding: 24px;
+  width: 100%;
+
+  .overflowEllipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.paddingRightZero {
+  padding-right: 0;
+}
+
+.cardsBlockCard {
+  padding: 0;
+  padding-right: 0;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  background: #ffffff;
+
+  .icon {
+    margin-bottom: 16px;
+  }
+
+  h5 {
+    font-size: 14px;
+    color: #222222;
+  }
+
+  .plusBlock {
+    padding: 16px 11px;
+    border-radius: 4px 0px 0px 4px;
+    background: #f2f2f2;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+}

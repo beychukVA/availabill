@@ -1,0 +1,17 @@
+@import "../../../styles/sass/utils/variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: $primary-text-color;
+  margin-top: 10px;
+}

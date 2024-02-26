@@ -1,0 +1,31 @@
+@import "../../styles/sass/utils/variables";
+
+.container {
+  display: flex;
+
+  @media (min-width: $desktop) {
+    height: 100vh;
+  }
+}
+
+.leftContainer {
+  max-width: none;
+  width: 100%;
+  background-color: $secondary-background-color;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+
+  .children {
+    margin: 32px 0 48px 0;
+    flex: 1;
+
+    @media (min-width: $desktop) {
+      margin: 50px 0;
+    }
+  }
+
+  @media (min-width: $desktop) {
+    max-width: 504px;
+  }
+}

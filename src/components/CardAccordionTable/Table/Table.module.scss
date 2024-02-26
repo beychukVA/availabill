@@ -1,0 +1,269 @@
+@import "../../../styles/sass/utils/variables";
+
+.container {
+  container-type: inline-size;
+
+  .table {
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.05));
+    border-collapse: collapse;
+    width: 100%;
+    border: $table-border;
+    border-radius: 4px;
+    background: $white-text-color;
+
+    .chevron {
+      transition: 0.2s ease-in-out;
+      transform: rotate(-90deg);
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .expanded {
+      transform: rotate(-180deg);
+    }
+
+    .innerTable {
+      border-collapse: collapse;
+      width: 100%;
+      background: $white-text-color;
+
+      td {
+        vertical-align: top;
+      }
+
+      thead {
+        visibility: hidden;
+      }
+    }
+
+    .thead {
+      border: $table-border;
+
+      .th {
+        text-align: left;
+        padding: 12px;
+        color: $primary-text-color;
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+
+    .smallInnerTable {
+      display: flex;
+      gap: 10px;
+    }
+
+    .tbody {
+      .tr {
+        &:nth-child(even) {
+          td {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+          }
+        }
+
+        .td {
+          padding: 12px;
+          line-height: 22px;
+
+          .imageBlock {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .date {
+    font-size: 14px;
+    color: #848484;
+  }
+
+  .mobileHeader {
+    display: none;
+  }
+
+  .bold {
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .overflowEllipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .table {
+    table-layout: fixed;
+
+    @container (max-width: 900px) {
+      display: block;
+      padding: 12px;
+
+      .loadingTd {
+        display: block;
+        width: 100%;
+      }
+
+      .spinnerTd {
+        display: block;
+        border: none;
+      }
+
+      .innerTable {
+        .td {
+          border: none !important;
+        }
+      }
+
+      .tbody,
+      .th,
+      .td,
+      .tr,
+      .mobileHeader {
+        display: block;
+        overflow: hidden;
+      }
+
+      .tdBlock {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+      }
+
+      .thead {
+        display: none;
+      }
+
+      .tbody .tr {
+        td:last-child {
+          border-bottom: 5px solid $primary-background-color;
+        }
+
+        .innerTable td {
+          border-bottom: none;
+        }
+      }
+
+      .td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+      }
+    }
+
+    .textIconBlock {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .transactionBasket {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+
+  .spinner {
+    position: static;
+    padding: 20px;
+  }
+
+  .accordionContent {
+    padding: 30px;
+  }
+
+  .actionBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+
+    .iconBlock {
+      width: 18px;
+      display: flex;
+    }
+
+    &.active {
+      background: #f2f2f2;
+      border-radius: 4px 4px 0px 0px;
+    }
+
+    span {
+      font-weight: 600;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #222222;
+    }
+  }
+
+  .accordionClick {
+    cursor: pointer;
+  }
+
+  .smallTableTd {
+    border: none;
+
+    .innerTable {
+      h6 {
+        font-weight: 600;
+        font-size: 12px;
+        color: #848484;
+        margin-bottom: 8px;
+      }
+
+      .firstBlock {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .transactionBasketContent {
+        align-items: flex-start !important;
+        justify-content: start;
+
+        & > div {
+          align-items: flex-start !important;
+          flex-direction: column;
+        }
+      }
+
+      .lastBlock {
+        div {
+          display: flex;
+          align-items: center;
+
+          span {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: 0.07em;
+            text-transform: uppercase;
+            color: #848484;
+          }
+        }
+      }
+
+      & > div:not(.firstBlock) {
+        div {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          margin-bottom: 8px;
+
+          h6 {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}

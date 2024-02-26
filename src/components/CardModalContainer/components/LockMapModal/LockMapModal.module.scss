@@ -1,0 +1,46 @@
+@import "@/styles/sass/utils/variables";
+
+.modalInnerContent {
+  h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #222222;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 14px;
+    color: #848484;
+  }
+
+  h6 {
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #848484;
+    margin-bottom: 20px;
+  }
+
+  .modalRadio {
+    margin-bottom: 20px;
+
+    label {
+      font-weight: 600;
+      font-size: 12px;
+      color: #848484;
+    }
+  }
+
+  .buttonBlock {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .bottomParagraph {
+    margin-bottom: 20px;
+  }
+
+  .errorLockCardInfo {
+    margin-bottom: 30px;
+  }
+}
